@@ -1,5 +1,5 @@
 import streamlit as st
-tab1, tab2, tab3 = st.tabs(["Math", "Video", "Loi ket"])
+tab1, tab2, tab3 = st.tabs(["Math", "Video", "Lời kết"])
 with tab1:
    st.header('Bé tập làm toán:smile::exclamation:')
    st.image('https://www.unicef.org/montenegro/sites/unicef.org.montenegro/files/styles/hero_tablet/public/his_sofija-05-19-235_0.jpg?itok=YJQLrCrq')
@@ -45,6 +45,8 @@ with tab2:
    st.video('https://youtu.be/qOih8EjXnx4?si=VW79yWbFEbiUl5Mo')
 with tab3:
    st.title('Lời đề bạt')
-   st.text('Cuộc sống này không có điều gì đơn giản, quan trọng nhất là bản thân mình đã đạt được thành tựu to lớn nào hay no')
+   st.text('Cuộc sống này không có điều gì đơn giản, quan trọng nhất là 
+            bản thân mình đã đạt được thành tựu to lớn nào hay no')
+   st.write('hihi iu bn')
    
     
