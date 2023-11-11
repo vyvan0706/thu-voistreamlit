@@ -1,5 +1,6 @@
 import streamlit as st
-st.header(':rainbow [Bé tập làm toán]:smile:')
+st.ballons()
+st.header('Bé tập làm toán:smile::exclamation:')
 col1,col2,col3=st.columns(3)
 with col1:
    number = st.number_input('a',key='num1')
