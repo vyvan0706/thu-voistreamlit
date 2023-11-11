@@ -44,5 +44,7 @@ with tab2:
    st.title('Đây là một video đặc sắc')
    st.video('https://youtu.be/qOih8EjXnx4?si=VW79yWbFEbiUl5Mo')
 with tab3:
+   st.title('Lời đề bạt')
+   st.text('Cuộc sống này không có điều gì đơn giản, quan trọng nhất là bản thân mình đã đạt được thành tựu to lớn nào hay no')
    
     
