@@ -1,5 +1,4 @@
 import streamlit as st
-st.ballons()
 st.header('Bé tập làm toán:smile::exclamation:')
 col1,col2,col3=st.columns(3)
 with col1:
@@ -13,21 +12,29 @@ if st.button('Kiểm tra'):
    if radio=='x':
       if number*number2==number3:
         st.write('True')
+        st.balloons()
+        st.snow()
       else: 
          st.write('False')
    elif radio==':':
       if number/number2==number3:
         st.write('True')
+        st.balloons()
+        st.snow()
       else: 
          st.write('False')
    elif radio=='*-':
       if number-number2==number3:
         st.write('True')
+        st.balloons()
+        st.snow()
       else: 
          st.write('False')
    elif radio=='*+':
       if number + number2==number3:
         st.write('True')
+        st.balloons()
+        st.snow()      
       else: 
          st.write('False')
          
