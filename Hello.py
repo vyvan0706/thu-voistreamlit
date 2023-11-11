@@ -71,11 +71,11 @@ with tab4:
      col1,col2=st.columns(2)
      with col1:
        st.subheader('Văn bản gốc')
-       st.audio('S2/tts_result/result.mp3')
+       st.audio('tts_result/result.mp3')
      if translate:
           translated_input = GoogleTranslator(source='auto', target=target_language_code).translate(user_input)  
           trans_result= gtts.gTTS(text=translated_input, lang=target_language_code)
-          trans_result.save('S2/tts_result/trans_result.mp3')
+          trans_result.save('tts_result/trans_result.mp3')
            with col2:
             st.subheader('Văn bản dịch')
-            st.audio('S2/tts_result/trans_result.mp3')
+            st.audio('tts_result/trans_result.mp3')
