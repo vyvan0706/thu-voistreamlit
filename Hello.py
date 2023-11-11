@@ -1,6 +1,4 @@
 import streamlit as st
-from streamlit_chat import message
-import requests
 tab1, tab2, tab3 = st.tabs(["Math", "Video", "Lời kết"])
 with tab1:
    st.header('Bé tập làm toán:smile::exclamation:')
