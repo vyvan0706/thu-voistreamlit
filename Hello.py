@@ -68,14 +68,14 @@ with tab4:
      language_code=lang_detector(user_input)['lang']
      result= gtts.gTTS(text=user_input, lang=language_code)
      result.save('result.mp3')
-     col1,col2=st.columns(2)
-     with col1:
+     col41,col42=st.columns(2)
+     with col41:
        st.subheader('Văn bản gốc')
        st.audio('result.mp3')
      if translate:
           translated_input = GoogleTranslator(source='auto', target=target_language_code).translate(user_input)  
           trans_result= gtts.gTTS(text=translated_input, lang=target_language_code)
           trans_result.save('tts_result/trans_result.mp3')
-           with col2:
-            st.subheader('Văn bản dịch')
-            st.audio('trans_result.mp3')
+      with col42:
+        st.subheader('Văn bản dịch')
+        st.audio('trans_result.mp3')
