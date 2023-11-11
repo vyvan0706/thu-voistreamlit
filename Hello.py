@@ -1,4 +1,5 @@
 import streamlit as st
+
 tab1, tab2, tab3 = st.tabs(["Math", "Video", "Lời kết"])
 
 with tab1:
@@ -36,7 +37,7 @@ with tab1:
 
 with tab2:
     st.title('Đây là một video đặc sắc')
-    st.markdown("https://www.youtube.com/watch?v=U1NalirmJjg.")
+    st.video('https://www.youtube.com/watch?v=U1NalirmJjg')
 
 with tab3:
     st.title('Lời đề bạt')
