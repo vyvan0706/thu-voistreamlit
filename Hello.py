@@ -48,4 +48,3 @@ with tab3:
    st.write('Cuộc sống này không có điều gì đơn giản, quan trọng nhất là')  
    st.write(':rainbow[bản thân mình đã đạt được thành tựu to lớn nào hay ho]')
    st.write('hihi iu bn')
-
