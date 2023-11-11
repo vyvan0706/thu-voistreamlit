@@ -41,7 +41,7 @@ with tab1:
       else: 
          st.write('False')
 with tab2:
-   st.title(('Đây là một video đặc sắc')
+   st.title('Đây là một video đặc sắc')
    st.video('https://youtu.be/qOih8EjXnx4?si=VW79yWbFEbiUl5Mo')
 with tab3:
    
