@@ -36,10 +36,10 @@ with tab1:
 
 with tab2:
     st.title('Đây là một video đặc sắc')
-    st.markdown("You can embed the video link here.")
+    st.markdown("https://www.youtube.com/watch?v=U1NalirmJjg.")
 
 with tab3:
     st.title('Lời đề bạt')
     st.write('Cuộc sống này không có điều gì đơn giản, quan trọng nhất là')
-    st.write('[bản thân mình đã đạt được thành tựu to lớn nào hay ho]')
+    st.write(':rainbow[bản thân mình đã đạt được thành tựu to lớn nào hay ho]')
     st.write('hihi iu bn')
