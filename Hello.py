@@ -45,8 +45,8 @@ with tab2:
    st.video('https://youtu.be/qOih8EjXnx4?si=VW79yWbFEbiUl5Mo')
 with tab3:
    st.title('Lời đề bạt')
-   st.text('Cuộc sống này không có điều gì đơn giản, quan trọng nhất là')  
-   st.text(:rainbow['bản thân mình đã đạt được thành tựu to lớn nào hay ho'])
+   st.write('Cuộc sống này không có điều gì đơn giản, quan trọng nhất là')  
+   st.write(':rainbow[bản thân mình đã đạt được thành tựu to lớn nào hay ho]')
    st.write('hihi iu bn')
    
     
