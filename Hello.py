@@ -1,7 +1,7 @@
 import streamlit as st
-st.image('https://www.unicef.org/montenegro/sites/unicef.org.montenegro/files/styles/hero_tablet/public/his_sofija-05-19-235_0.jpg?itok=YJQLrCrq')
 st.video('https://youtu.be/qOih8EjXnx4?si=VW79yWbFEbiUl5Mo')
 st.header('Bé tập làm toán:smile::exclamation:')
+st.image('https://www.unicef.org/montenegro/sites/unicef.org.montenegro/files/styles/hero_tablet/public/his_sofija-05-19-235_0.jpg?itok=YJQLrCrq')
 col1,col2,col3=st.columns(3)
 with col1:
    number = st.number_input('a',key='num1')
